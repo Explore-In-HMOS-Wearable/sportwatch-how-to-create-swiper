@@ -1,0 +1,33 @@
+<stack class="container" onswipe="onSwipe">
+    <swiper class="page-container" index="{{ index }}" onchange="change" indicator="true" autoplay="false" loop="false"
+            indicatormask="true">
+
+    <!-- Steps Page -->
+
+        <div class="page">
+            <text class="title">Steps</text>
+            <text class="value">{{ steps }}</text>
+        </div>
+
+    <!-- Calories Page -->
+
+        <div class="page">
+            <text class="title">Calorie</text>
+            <text class="value">{{ calories }}</text>
+            <text class="unit">kcal</text>
+        </div>
+
+    <!-- Heart Rate Page -->
+
+        <div class="page">
+            <text class="title">Heart Rate</text>
+            <text class="value">{{ heartRate }}</text>
+            <text class="unit">bpm</text>
+        </div>
+    </swiper>
+    <div class="indicator-container">
+        <div class="indicator-dot" for="{{ pageNums }}"
+             style="background-color: {{ dotIndex === $idx ? '#FFCB74' : '#C4C4C4' }};
+                     width: {{ dotIndex === $idx ? '20px' : '10px' }};"></div>
+    </div>
+</stack>
