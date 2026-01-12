@@ -1,6 +1,7 @@
 {
   "app": {
-    "bundleName": "com.hmosdemos.howtocreateswiper",
+    "bundleName": "com.hmosdemos.lite_wearable.sportwatch_howto_create_swiper",
+
     "vendor": "hmosdemos",
     "version": {
       "code": 1000000,

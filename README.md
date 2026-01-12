@@ -6,11 +6,11 @@ HarmonyOS application that showing how Swiper can be implemented on lite wearabl
 
 # Preview
 
-<div>
+<p align="left">
   <img src="./screenshots/swiper1output.png" width="25%">
   <img src="./screenshots/swiper2output.png" width="25%">
   <img src="./screenshots/swiper3output.png" width="25%">
-</div>
+</p>
 
 # Use Cases
 
